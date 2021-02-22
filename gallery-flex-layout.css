@@ -1,0 +1,15 @@
+flex-container {
+    display: flex;
+}
+
+.photogallery {
+    align-items:center;
+    flex-wrap: wrap;
+    }
+
+.photogallery img {
+    flex-basis: 300px;
+    flex-grow: 1;
+    height: 350px;
+    max-width: 500px;
+}
